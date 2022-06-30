@@ -1,0 +1,126 @@
+* {
+    padding:0px;
+    margin: 0px;
+}
+
+/* header */
+
+.container-header{
+    background-color: black;
+    color: white;
+    padding: 10px 0 10px 0;
+    font-size: 20px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+.home{
+    padding-left: 20px;
+}
+
+.contact{
+    padding-right: 20px;
+}
+
+/* article */ 
+
+/*piano*/
+
+.container-piano{
+    position: relative;
+}
+
+.piano-img {
+    padding: 10px 0 0 10px;
+    position: absolute;
+}
+
+/*form*/
+
+.form-regis {
+    background-color: rgba(128,128,128,0.5);
+    width: 20%;
+    position: absolute;
+    color: aliceblue;
+    padding: 50px 50px 50px 50px;
+    margin:250px 0 0 500px;
+}
+
+.name {
+    margin: 0 0 0 12px;
+}
+
+.course {
+    margin: 0 0 0 6px;
+}
+
+.button-regis {
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+/*content*/
+
+/*video*/
+
+.content {
+    position: absolute;
+    margin: 825px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 10px;
+}
+
+.content-video{
+    margin: 0 30px 0px 0;
+    padding: 10px 10px 10px 10px;
+}
+
+.content-text{
+    text-align: justify;
+    padding: 10px 10px 10px 10px;
+}
+
+/*about*/
+
+.about {
+    position: absolute;
+    margin: 1000px 0 0 0;
+    text-align: justify;
+    padding: 10px 20px 10px 20px;
+}
+
+/*contact*/
+.contact-content {
+    position: absolute;
+    margin: 1100px 0 0 0;
+    text-align: justify;
+    padding: 10px 20px 10px 20px;
+}
+
+/*footer*/
+
+.footer {
+    background-color: black;
+    position: absolute;
+    margin: 1200px 0 0 0;
+    display: block;
+    width: 100%;
+    color: white;
+    padding: 10px 0 10px 15px;
+}
